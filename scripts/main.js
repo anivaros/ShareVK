@@ -8,6 +8,10 @@
   return rtn;
 }
 
+$(function () {
+	VKBBase.start();
+});
+
 VKBBase = {
 start: function(){
 	chrome.tabs.onUpdated.addListener(VKBBase.update);
