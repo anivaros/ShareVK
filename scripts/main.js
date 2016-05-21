@@ -156,16 +156,6 @@ restore_options: function() {
 		$("#contextMenuButton").removeAttr('checked');
 	}
 },
-/*
-vkAuth: function() {
-	var authUrl = 'http://api.vk.com/oauth/authorize?client_id=2295638&scope=wall&redirect_uri=http://api.vk.com/blank.html&response_type=token&display=popup';
-	chrome.windows.create({'url':authUrl,'width':800,'height':400,'focused':true,'type':"popup"}, function(window){
-		chrome.tabs.onUpdated.addListener(function(tabId, info, tab) {
-			console.log(info.url);
-		});
-	});
-},
-*/
 onInstall: function() {
   console.log("Extension Installed");
   chrome.tabs.create({"url":"about.html"});
