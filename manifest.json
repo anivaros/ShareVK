@@ -15,7 +15,7 @@
    },
    "name": "\u041E\u043F\u0443\u0431\u043B\u0438\u043A\u043E\u0432\u0430\u0442\u044C \u0412\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u0435 (vk.com)",
    "options_page": "options.html",
-   "permissions": [ "tabs", "contextMenus", "http://*.vk.com/*" ],
+   "permissions": [ "tabs", "contextMenus", "http://*.vk.com/*", "https://*.vk.com/*" ],
    "update_url": "http://clients2.google.com/service/update2/crx",
    "content_security_policy": "script-src 'self' https://apis.google.com https://vk.com; object-src 'self'",
    "version": "1.3.5"
